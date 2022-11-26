@@ -1,0 +1,14 @@
+---
+name: Markdown
+
+"on":
+  push:
+    paths:
+      - "**.md"
+
+jobs:
+  lint:
+    uses: ./.github/workflows/markdown-lint.yml
+
+  style:
+    uses: ./.github/workflows/markdown-style.yml
