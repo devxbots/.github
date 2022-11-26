@@ -1,0 +1,15 @@
+---
+name: Shell
+
+"on":
+  push:
+    paths:
+      - "**.sh"
+      - "bin/**"
+
+jobs:
+  lint:
+    uses: ./.github/workflows/shell-lint.yml
+
+  style:
+    uses: ./.github/workflows/shell-style.yml

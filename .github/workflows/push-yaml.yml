@@ -1,0 +1,15 @@
+---
+name: YAML
+
+"on":
+  push:
+    paths:
+      - "**.yaml"
+      - "**.yml"
+
+jobs:
+  lint:
+    uses: ./.github/workflows/yaml-lint.yml
+
+  style:
+    uses: ./.github/workflows/yaml-style.yml

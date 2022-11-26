@@ -1,0 +1,11 @@
+---
+name: JSON
+
+"on":
+  pull_request:
+    paths:
+      - "**.json"
+
+jobs:
+  style:
+    uses: ./.github/workflows/json-style.yml

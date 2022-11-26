@@ -1,0 +1,11 @@
+---
+name: Maintenance
+
+"on":
+  push:
+    branches:
+      - main
+
+jobs:
+  labels:
+    uses: ./.github/workflows/sync-labels.yml
