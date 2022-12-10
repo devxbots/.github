@@ -1,6 +1,6 @@
 # DEV x BOTS
 
-![dev x bots logo](../assets/banner.png)
+![dev x bots logo](https://github.com/devxbots/.github/blob/main/assets/banner.png?raw=true)
 
 We want developers to focus on the important tasks.  
 That's why we are automating everything else.
