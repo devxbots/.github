@@ -55,7 +55,7 @@ jobs:
           version: 0.20.0
 
       - name: Upload to codecov.io
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
         if: ${{ steps.coverage.outputs.enable == 'true' }}
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
